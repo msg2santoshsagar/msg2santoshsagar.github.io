@@ -17,7 +17,7 @@ function Projects() {
   ]
 
   return (
-    <Section id="projects" title="Projects">
+    <Section id="projects" title="Projects" className="bg-white">
       <ul className="space-y-4 text-left">
         {projects.map(project => (
           <li key={project.name}>

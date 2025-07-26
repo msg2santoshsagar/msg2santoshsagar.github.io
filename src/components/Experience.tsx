@@ -27,7 +27,7 @@ function Experience() {
   ]
 
   return (
-    <Section id="experience" title="Experience">
+    <Section id="experience" title="Experience" className="bg-white">
       {experiences.map(exp => (
         <ExperienceItem key={exp.role + exp.company} {...exp} />
       ))}

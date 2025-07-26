@@ -11,7 +11,7 @@ function Education() {
   ]
 
   return (
-    <Section id="education" title="Education">
+    <Section id="education" title="Education" className="bg-gray-50">
       {education.map(item => (
         <EducationItem
           key={item.degree + item.institution}

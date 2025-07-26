@@ -15,7 +15,7 @@ function Skills() {
   ]
 
   return (
-    <Section id="skills" title="Skills">
+    <Section id="skills" title="Skills" className="bg-gray-50">
       <SkillList skills={skills} />
     </Section>
   )
