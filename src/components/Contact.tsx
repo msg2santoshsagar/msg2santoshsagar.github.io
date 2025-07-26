@@ -1,9 +1,17 @@
+import Section from './Section'
+
 function Contact() {
-    return (
-        <section id="contact" className="px-8 py-12">
-            <h2 className="text-2xl font-semibold mb-4">Contact</h2>
-            <p>Coming soon...</p>
-        </section>
-    )
+  return (
+    <Section id="contact" title="Contact">
+      <p>
+        Feel free to reach out via{' '}
+        <a href="mailto:santosh@example.com" className="text-blue-600 underline">
+          santosh@example.com
+        </a>
+        .
+      </p>
+    </Section>
+  )
 }
+
 export default Contact
