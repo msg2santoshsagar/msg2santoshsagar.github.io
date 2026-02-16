@@ -1,9 +1,16 @@
-function About() {
+type AboutProps = {
+    yearsText: string
+}
+
+function About({ yearsText }: AboutProps) {
     return (
-        <section id="about" className="px-8 py-12 bg-white text-gray-800">
-            <h2 className="text-2xl font-semibold mb-4">About Me</h2>
+        <section id="about" className="cv-card">
+            <h2>About</h2>
             <p>
-                I’m a passionate full stack developer with expertise in building scalable and user-centric web applications.
+                Full Stack Software Engineer with {yearsText} of experience (Aug 2016 onwards) designing and
+                delivering scalable applications across modern frontend and backend stacks. Experienced across the
+                full SDLC—from requirement analysis to design, development, testing, deployment, and integration—
+                with strong collaboration and communication in Agile and Waterfall environments.
             </p>
         </section>
     )
